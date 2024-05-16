@@ -4,6 +4,15 @@
     "version": "0.0.1",
     "description": "get bili cookie",
     "action": {
-        "default_icon": "usr.jpg"
-    }
+        "default_icon": "usr.png",
+        "default_popup": "index.html"
+    },
+    "host_permissions": [
+        "*://*.bilibili.com/",
+        "http://leetcode.cn:9961/"
+    ],
+    "permissions": [
+        "cookies",
+        "tabs"
+    ]
 }
