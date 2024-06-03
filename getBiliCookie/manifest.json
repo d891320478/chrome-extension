@@ -9,7 +9,7 @@
     },
     "host_permissions": [
         "*://*.bilibili.com/",
-        "http://leetcode.cn:9961/"
+        "http://htdong-n4:9961/"
     ],
     "permissions": [
         "cookies",

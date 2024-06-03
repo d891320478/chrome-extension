@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
 
                 var request = new XMLHttpRequest();
-                var url = "http://leetcode.cn:9961/htdong/bili/updateCookie";
+                var url = "http://htdong-n4:9961/htdong/bili/updateCookie";
                 request.open("POST", url);
                 request.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
                 request.send(encryptArr.join("#"));
